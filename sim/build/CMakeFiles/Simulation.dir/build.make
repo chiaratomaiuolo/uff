@@ -43,10 +43,10 @@ RM = /afs/psi.ch/sys/psi.merlin/Programming/cmake/3.9.6/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /meg/home/tomaiu_c/examples/sim
+CMAKE_SOURCE_DIR = /meg/home/tomaiu_c/examples/uff/sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /meg/home/tomaiu_c/examples/sim/build
+CMAKE_BINARY_DIR = /meg/home/tomaiu_c/examples/uff/sim/build
 
 # Utility rule file for Simulation.
 
@@ -71,6 +71,6 @@ CMakeFiles/Simulation.dir/clean:
 .PHONY : CMakeFiles/Simulation.dir/clean
 
 CMakeFiles/Simulation.dir/depend:
-	cd /meg/home/tomaiu_c/examples/sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /meg/home/tomaiu_c/examples/sim /meg/home/tomaiu_c/examples/sim /meg/home/tomaiu_c/examples/sim/build /meg/home/tomaiu_c/examples/sim/build /meg/home/tomaiu_c/examples/sim/build/CMakeFiles/Simulation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /meg/home/tomaiu_c/examples/uff/sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /meg/home/tomaiu_c/examples/uff/sim /meg/home/tomaiu_c/examples/uff/sim /meg/home/tomaiu_c/examples/uff/sim/build /meg/home/tomaiu_c/examples/uff/sim/build /meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles/Simulation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Simulation.dir/depend
 

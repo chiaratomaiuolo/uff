@@ -54,10 +54,10 @@ RM = /afs/psi.ch/sys/psi.merlin/Programming/cmake/3.9.6/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /meg/home/tomaiu_c/examples/sim
+CMAKE_SOURCE_DIR = /meg/home/tomaiu_c/examples/uff/sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /meg/home/tomaiu_c/examples/sim/build
+CMAKE_BINARY_DIR = /meg/home/tomaiu_c/examples/uff/sim/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/sim.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /meg/home/tomaiu_c/examples/sim/build
 CMakeFiles/sim.dir/all:
 	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/depend
 	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/meg/home/tomaiu_c/examples/sim/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target sim"
 .PHONY : CMakeFiles/sim.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/sim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /meg/home/tomaiu_c/examples/sim/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sim.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /meg/home/tomaiu_c/examples/sim/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles 0
 .PHONY : CMakeFiles/sim.dir/rule
 
 # Convenience name for target.
@@ -103,14 +103,14 @@ clean: CMakeFiles/sim.dir/clean
 CMakeFiles/Simulation.dir/all: CMakeFiles/sim.dir/all
 	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/depend
 	$(MAKE) -f CMakeFiles/Simulation.dir/build.make CMakeFiles/Simulation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/meg/home/tomaiu_c/examples/sim/build/CMakeFiles --progress-num= "Built target Simulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles --progress-num= "Built target Simulation"
 .PHONY : CMakeFiles/Simulation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Simulation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /meg/home/tomaiu_c/examples/sim/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Simulation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /meg/home/tomaiu_c/examples/sim/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles 0
 .PHONY : CMakeFiles/Simulation.dir/rule
 
 # Convenience name for target.

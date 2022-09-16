@@ -1988,6 +1988,12 @@ G4ThreeVector.hh
 CLHEP/Vector/Rotation.h
 -
 
+/meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4Run.hh
+globals.hh
+/meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/globals.hh
+vector
+-
+
 /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RunManager.hh
 G4RunManagerKernel.hh
 /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RunManagerKernel.hh
@@ -4370,105 +4376,107 @@ vector
 G4Types.hh
 /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4Types.hh
 
-/meg/home/tomaiu_c/examples/sim/action.cc
+/meg/home/tomaiu_c/examples/uff/sim/action.cc
 action.hh
-/meg/home/tomaiu_c/examples/sim/action.hh
+/meg/home/tomaiu_c/examples/uff/sim/action.hh
 
-/meg/home/tomaiu_c/examples/sim/action.hh
+/meg/home/tomaiu_c/examples/uff/sim/action.hh
 G4VUserActionInitialization.hh
-/meg/home/tomaiu_c/examples/sim/G4VUserActionInitialization.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4VUserActionInitialization.hh
 generator.hh
-/meg/home/tomaiu_c/examples/sim/generator.hh
+/meg/home/tomaiu_c/examples/uff/sim/generator.hh
 run.hh
-/meg/home/tomaiu_c/examples/sim/run.hh
+/meg/home/tomaiu_c/examples/uff/sim/run.hh
 
-/meg/home/tomaiu_c/examples/sim/construction.cc
+/meg/home/tomaiu_c/examples/uff/sim/construction.cc
 construction.hh
-/meg/home/tomaiu_c/examples/sim/construction.hh
+/meg/home/tomaiu_c/examples/uff/sim/construction.hh
 detector.hh
-/meg/home/tomaiu_c/examples/sim/detector.hh
+/meg/home/tomaiu_c/examples/uff/sim/detector.hh
 
-/meg/home/tomaiu_c/examples/sim/construction.hh
+/meg/home/tomaiu_c/examples/uff/sim/construction.hh
 G4VUserDetectorConstruction.hh
-/meg/home/tomaiu_c/examples/sim/G4VUserDetectorConstruction.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4VUserDetectorConstruction.hh
 G4VPhysicalVolume.hh
-/meg/home/tomaiu_c/examples/sim/G4VPhysicalVolume.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4VPhysicalVolume.hh
 G4LogicalVolume.hh
-/meg/home/tomaiu_c/examples/sim/G4LogicalVolume.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4LogicalVolume.hh
 G4Box.hh
-/meg/home/tomaiu_c/examples/sim/G4Box.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4Box.hh
 G4PVPlacement.hh
-/meg/home/tomaiu_c/examples/sim/G4PVPlacement.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4PVPlacement.hh
 G4NistManager.hh
-/meg/home/tomaiu_c/examples/sim/G4NistManager.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4NistManager.hh
 G4SystemOfUnits.hh
-/meg/home/tomaiu_c/examples/sim/G4SystemOfUnits.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4SystemOfUnits.hh
 
-/meg/home/tomaiu_c/examples/sim/detector.cc
+/meg/home/tomaiu_c/examples/uff/sim/detector.cc
 detector.hh
-/meg/home/tomaiu_c/examples/sim/detector.hh
+/meg/home/tomaiu_c/examples/uff/sim/detector.hh
 
-/meg/home/tomaiu_c/examples/sim/detector.hh
+/meg/home/tomaiu_c/examples/uff/sim/detector.hh
 G4VSensitiveDetector.hh
-/meg/home/tomaiu_c/examples/sim/G4VSensitiveDetector.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4VSensitiveDetector.hh
 g4root.hh
-/meg/home/tomaiu_c/examples/sim/g4root.hh
+/meg/home/tomaiu_c/examples/uff/sim/g4root.hh
 G4RunManager.hh
-/meg/home/tomaiu_c/examples/sim/G4RunManager.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4RunManager.hh
 
-/meg/home/tomaiu_c/examples/sim/generator.cc
+/meg/home/tomaiu_c/examples/uff/sim/generator.cc
 generator.hh
-/meg/home/tomaiu_c/examples/sim/generator.hh
+/meg/home/tomaiu_c/examples/uff/sim/generator.hh
 
-/meg/home/tomaiu_c/examples/sim/generator.hh
+/meg/home/tomaiu_c/examples/uff/sim/generator.hh
 G4VUserPrimaryGeneratorAction.hh
-/meg/home/tomaiu_c/examples/sim/G4VUserPrimaryGeneratorAction.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4VUserPrimaryGeneratorAction.hh
 G4ParticleGun.hh
-/meg/home/tomaiu_c/examples/sim/G4ParticleGun.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4ParticleGun.hh
 G4SystemOfUnits.hh
-/meg/home/tomaiu_c/examples/sim/G4SystemOfUnits.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4SystemOfUnits.hh
 G4ParticleTable.hh
-/meg/home/tomaiu_c/examples/sim/G4ParticleTable.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4ParticleTable.hh
 
-/meg/home/tomaiu_c/examples/sim/physics.cc
+/meg/home/tomaiu_c/examples/uff/sim/physics.cc
 physics.hh
-/meg/home/tomaiu_c/examples/sim/physics.hh
+/meg/home/tomaiu_c/examples/uff/sim/physics.hh
 
-/meg/home/tomaiu_c/examples/sim/physics.hh
+/meg/home/tomaiu_c/examples/uff/sim/physics.hh
 G4VModularPhysicsList.hh
-/meg/home/tomaiu_c/examples/sim/G4VModularPhysicsList.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4VModularPhysicsList.hh
 G4EmStandardPhysics.hh
-/meg/home/tomaiu_c/examples/sim/G4EmStandardPhysics.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4EmStandardPhysics.hh
 G4OpticalPhysics.hh
-/meg/home/tomaiu_c/examples/sim/G4OpticalPhysics.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4OpticalPhysics.hh
 
-/meg/home/tomaiu_c/examples/sim/run.cc
+/meg/home/tomaiu_c/examples/uff/sim/run.cc
 run.hh
-/meg/home/tomaiu_c/examples/sim/run.hh
+/meg/home/tomaiu_c/examples/uff/sim/run.hh
 
-/meg/home/tomaiu_c/examples/sim/run.hh
+/meg/home/tomaiu_c/examples/uff/sim/run.hh
 G4UserRunAction.hh
-/meg/home/tomaiu_c/examples/sim/G4UserRunAction.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4UserRunAction.hh
 g4root.hh
-/meg/home/tomaiu_c/examples/sim/g4root.hh
+/meg/home/tomaiu_c/examples/uff/sim/g4root.hh
+G4Run.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4Run.hh
 
-/meg/home/tomaiu_c/examples/sim/sim.cc
+/meg/home/tomaiu_c/examples/uff/sim/sim.cc
 iostream
 -
 G4RunManager.hh
-/meg/home/tomaiu_c/examples/sim/G4RunManager.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4RunManager.hh
 G4UImanager.hh
-/meg/home/tomaiu_c/examples/sim/G4UImanager.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4UImanager.hh
 G4VisManager.hh
-/meg/home/tomaiu_c/examples/sim/G4VisManager.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4VisManager.hh
 G4VisExecutive.hh
-/meg/home/tomaiu_c/examples/sim/G4VisExecutive.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4VisExecutive.hh
 G4UIExecutive.hh
-/meg/home/tomaiu_c/examples/sim/G4UIExecutive.hh
+/meg/home/tomaiu_c/examples/uff/sim/G4UIExecutive.hh
 construction.hh
-/meg/home/tomaiu_c/examples/sim/construction.hh
+/meg/home/tomaiu_c/examples/uff/sim/construction.hh
 physics.hh
-/meg/home/tomaiu_c/examples/sim/physics.hh
+/meg/home/tomaiu_c/examples/uff/sim/physics.hh
 action.hh
-/meg/home/tomaiu_c/examples/sim/action.hh
+/meg/home/tomaiu_c/examples/uff/sim/action.hh
 

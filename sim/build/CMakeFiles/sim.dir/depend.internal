@@ -47,6 +47,7 @@ CMakeFiles/sim.dir/action.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RootFileManager.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RootNtupleManager.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RootRNtupleManager.hh
+ /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4Run.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4String.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4String.icc
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4SystemOfUnits.hh
@@ -189,10 +190,10 @@ CMakeFiles/sim.dir/action.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/tools/wroot/to
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/tools/wroot/tree
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/tools/wroot/wbuf
- /meg/home/tomaiu_c/examples/sim/action.cc
- /meg/home/tomaiu_c/examples/sim/action.hh
- /meg/home/tomaiu_c/examples/sim/generator.hh
- /meg/home/tomaiu_c/examples/sim/run.hh
+ /meg/home/tomaiu_c/examples/uff/sim/action.cc
+ /meg/home/tomaiu_c/examples/uff/sim/action.hh
+ /meg/home/tomaiu_c/examples/uff/sim/generator.hh
+ /meg/home/tomaiu_c/examples/uff/sim/run.hh
 CMakeFiles/sim.dir/construction.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/CLHEP/Geometry/Normal3D.h
@@ -624,9 +625,9 @@ CMakeFiles/sim.dir/construction.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/tools/wroot/wbuf
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/trajectoryControl.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/trkdefs.hh
- /meg/home/tomaiu_c/examples/sim/construction.cc
- /meg/home/tomaiu_c/examples/sim/construction.hh
- /meg/home/tomaiu_c/examples/sim/detector.hh
+ /meg/home/tomaiu_c/examples/uff/sim/construction.cc
+ /meg/home/tomaiu_c/examples/uff/sim/construction.hh
+ /meg/home/tomaiu_c/examples/uff/sim/detector.hh
 CMakeFiles/sim.dir/detector.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/CLHEP/Geometry/Normal3D.h
@@ -1028,8 +1029,8 @@ CMakeFiles/sim.dir/detector.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/tools/wroot/wbuf
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/trajectoryControl.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/trkdefs.hh
- /meg/home/tomaiu_c/examples/sim/detector.cc
- /meg/home/tomaiu_c/examples/sim/detector.hh
+ /meg/home/tomaiu_c/examples/uff/sim/detector.cc
+ /meg/home/tomaiu_c/examples/uff/sim/detector.hh
 CMakeFiles/sim.dir/generator.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/CLHEP/Units/SystemOfUnits.h
@@ -1067,8 +1068,8 @@ CMakeFiles/sim.dir/generator.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/pwdefs.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/templates.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/tls.hh
- /meg/home/tomaiu_c/examples/sim/generator.cc
- /meg/home/tomaiu_c/examples/sim/generator.hh
+ /meg/home/tomaiu_c/examples/uff/sim/generator.cc
+ /meg/home/tomaiu_c/examples/uff/sim/generator.hh
 CMakeFiles/sim.dir/physics.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/CLHEP/Units/SystemOfUnits.h
@@ -1131,8 +1132,8 @@ CMakeFiles/sim.dir/physics.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/rundefs.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/templates.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/tls.hh
- /meg/home/tomaiu_c/examples/sim/physics.cc
- /meg/home/tomaiu_c/examples/sim/physics.hh
+ /meg/home/tomaiu_c/examples/uff/sim/physics.cc
+ /meg/home/tomaiu_c/examples/uff/sim/physics.hh
 CMakeFiles/sim.dir/run.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4AnalysisManagerState.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4AnalysisUtilities.hh
@@ -1161,6 +1162,7 @@ CMakeFiles/sim.dir/run.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RootFileManager.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RootNtupleManager.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RootRNtupleManager.hh
+ /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4Run.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4String.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4String.icc
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4THnManager.hh
@@ -1297,8 +1299,8 @@ CMakeFiles/sim.dir/run.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/tools/wroot/to
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/tools/wroot/tree
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/tools/wroot/wbuf
- /meg/home/tomaiu_c/examples/sim/run.cc
- /meg/home/tomaiu_c/examples/sim/run.hh
+ /meg/home/tomaiu_c/examples/uff/sim/run.cc
+ /meg/home/tomaiu_c/examples/uff/sim/run.hh
 CMakeFiles/sim.dir/sim.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/CLHEP/Geometry/Normal3D.h
@@ -1550,6 +1552,7 @@ CMakeFiles/sim.dir/sim.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RootNtupleManager.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RootRNtupleManager.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RotationMatrix.hh
+ /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4Run.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RunManager.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4RunManagerKernel.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/G4SandiaTable.hh
@@ -1821,9 +1824,9 @@ CMakeFiles/sim.dir/sim.cc.o
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/tools/wroot/wbuf
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/trajectoryControl.hh
  /meg/home/meg/cern/geant4.10.06.p03_gcc1030c17_release/include/Geant4/trkdefs.hh
- /meg/home/tomaiu_c/examples/sim/action.hh
- /meg/home/tomaiu_c/examples/sim/construction.hh
- /meg/home/tomaiu_c/examples/sim/generator.hh
- /meg/home/tomaiu_c/examples/sim/physics.hh
- /meg/home/tomaiu_c/examples/sim/run.hh
- /meg/home/tomaiu_c/examples/sim/sim.cc
+ /meg/home/tomaiu_c/examples/uff/sim/action.hh
+ /meg/home/tomaiu_c/examples/uff/sim/construction.hh
+ /meg/home/tomaiu_c/examples/uff/sim/generator.hh
+ /meg/home/tomaiu_c/examples/uff/sim/physics.hh
+ /meg/home/tomaiu_c/examples/uff/sim/run.hh
+ /meg/home/tomaiu_c/examples/uff/sim/sim.cc

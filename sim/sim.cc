@@ -14,25 +14,39 @@ int main(int argc, char** argv)
     //It is necessary to build a run manager, that controls the start of the 'particle' event (run) 
     //and at the end of the simulation, writes the datas.
     G4RunManager *runManager = new G4RunManager();
+    
     //When the detector is designed and ready, the runManager has to be initialized 
     runManager->SetUserInitialization(new MyDetectorConstruction());
     runManager->SetUserInitialization(new MyPhysicsList());
     runManager->SetUserInitialization(new MyActionInitialization());
     runManager->Initialize();
     //Need of user interface and visualisation manager
-    G4UIExecutive *ui = new G4UIExecutive(argc, argv);
+    G4UIExecutive *ui = 0; 
+    if(argc == 1)    
+    {
+        ui = new G4UIExecutive(argc, argv);
+    }
+    
     G4VisManager *visManager = new G4VisExecutive();
     visManager->Initialize();
 
-    
+
     G4UImanager *UImanager = G4UImanager::GetUIpointer();
-    //Giving commands for the user interface to visualize the OGL, the volume, starting position.
-    UImanager->ApplyCommand("/vis/open OGL");
-    UImanager->ApplyCommand("/vis/drawVolume");
-    UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
-    UImanager->ApplyCommand("/vis/viewer/set/AutoRefresh true");
-    UImanager->ApplyCommand("/vis/scene/add/trajectories smooth");
-    UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate");
-    ui->SessionStart();
+
+    if(ui)
+    {
+        //Giving commands for the user interface to visualize the OGL, the volume, starting position.
+        UImanager->ApplyCommand("/control/execute vis.mac");
+        //UImanager->ApplyCommand("/control/execute run.mac");
+	ui->SessionStart();
+        
+    }
+    else 
+    {
+        G4String command = "/control/execute ";
+	G4String fileName = argv[1];
+	UImanager->ApplyCommand(command+fileName);
+    }
+
     return 0;
 }

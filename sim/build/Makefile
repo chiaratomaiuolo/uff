@@ -48,10 +48,10 @@ RM = /afs/psi.ch/sys/psi.merlin/Programming/cmake/3.9.6/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /meg/home/tomaiu_c/examples/sim
+CMAKE_SOURCE_DIR = /meg/home/tomaiu_c/examples/uff/sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /meg/home/tomaiu_c/examples/sim/build
+CMAKE_BINARY_DIR = /meg/home/tomaiu_c/examples/uff/sim/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /meg/home/tomaiu_c/examples/sim/build/CMakeFiles /meg/home/tomaiu_c/examples/sim/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles /meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /meg/home/tomaiu_c/examples/sim/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

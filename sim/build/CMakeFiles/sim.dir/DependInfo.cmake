@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/meg/home/tomaiu_c/examples/sim/action.cc" "/meg/home/tomaiu_c/examples/sim/build/CMakeFiles/sim.dir/action.cc.o"
-  "/meg/home/tomaiu_c/examples/sim/construction.cc" "/meg/home/tomaiu_c/examples/sim/build/CMakeFiles/sim.dir/construction.cc.o"
-  "/meg/home/tomaiu_c/examples/sim/detector.cc" "/meg/home/tomaiu_c/examples/sim/build/CMakeFiles/sim.dir/detector.cc.o"
-  "/meg/home/tomaiu_c/examples/sim/generator.cc" "/meg/home/tomaiu_c/examples/sim/build/CMakeFiles/sim.dir/generator.cc.o"
-  "/meg/home/tomaiu_c/examples/sim/physics.cc" "/meg/home/tomaiu_c/examples/sim/build/CMakeFiles/sim.dir/physics.cc.o"
-  "/meg/home/tomaiu_c/examples/sim/run.cc" "/meg/home/tomaiu_c/examples/sim/build/CMakeFiles/sim.dir/run.cc.o"
-  "/meg/home/tomaiu_c/examples/sim/sim.cc" "/meg/home/tomaiu_c/examples/sim/build/CMakeFiles/sim.dir/sim.cc.o"
+  "/meg/home/tomaiu_c/examples/uff/sim/action.cc" "/meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles/sim.dir/action.cc.o"
+  "/meg/home/tomaiu_c/examples/uff/sim/construction.cc" "/meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles/sim.dir/construction.cc.o"
+  "/meg/home/tomaiu_c/examples/uff/sim/detector.cc" "/meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles/sim.dir/detector.cc.o"
+  "/meg/home/tomaiu_c/examples/uff/sim/generator.cc" "/meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles/sim.dir/generator.cc.o"
+  "/meg/home/tomaiu_c/examples/uff/sim/physics.cc" "/meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles/sim.dir/physics.cc.o"
+  "/meg/home/tomaiu_c/examples/uff/sim/run.cc" "/meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles/sim.dir/run.cc.o"
+  "/meg/home/tomaiu_c/examples/uff/sim/sim.cc" "/meg/home/tomaiu_c/examples/uff/sim/build/CMakeFiles/sim.dir/sim.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -29,6 +29,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "G4VIS_USE_RAYTRACERX"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
+  "QT_NO_DEBUG"
   "QT_OPENGL_LIB"
   "QT_PRINTSUPPORT_LIB"
   "QT_WIDGETS_LIB"
